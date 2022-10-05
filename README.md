@@ -71,9 +71,11 @@ multiqc -o multiqc_trim fastqc_trim
 ```
 time platanus assemble -o Poil -f sub1.fastq.trimmed sub2.fastq.trimmed 2> assemble.log
 ```
-<!--- Ссылка на Google Colab: https://colab.research.google.com/drive/1b9morJnM94QBuG7pUF8aMDVm7z6QAZ4F?usp=sharing 
+- Далее идет анализ полученных контигов
 
-Или блокнот вы можете найти здесь: https://github.com/Laitielly/hse22_hw1/blob/main/src/HW22_1.ipynb
+  Ссылка на Google Colab: https://colab.research.google.com/drive/1dWKTNqT-VrSV0R4vDES8CS4m_1u6RUmv?usp=sharing
+
+<!---  Или блокнот вы можете найти здесь: https://github.com/Laitielly/hse22_hw1/blob/main/src/HW22_1.ipynb
 --->
 
 - С помощью программы “platanus scaffold” собираем скаффолды из контигов, а также из подрезанных чтений
