@@ -125,6 +125,7 @@ mv mult* hw_1_main/
     ![Скрин_8](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/quality_score_extra_2.png)
 
 Ссылка на Google Colab та же.
+
 В папках data, reports лежат файлы для обязательной части, но так же они дублируются в этих же директориях в папках main. В папках extra в этих директориях лежат файлы для доп. задания. 
 
    
