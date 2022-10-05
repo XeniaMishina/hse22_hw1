@@ -126,6 +126,11 @@ mv mult* hw_1_main/
 
 Ссылка на Google Colab та же.
 
+## Выводы
+
+![Скрин_8](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/resume.png)
+
+
 В папках data, reports лежат файлы для обязательной части, но так же они дублируются в этих же директориях в папках main. В папках extra в этих директориях лежат файлы для доп. задания. 
 
    
