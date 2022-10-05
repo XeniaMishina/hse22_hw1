@@ -73,7 +73,7 @@ time platanus assemble -o Poil -f sub1.fastq.trimmed sub2.fastq.trimmed 2> assem
 ```
 - Далее идет анализ полученных контигов
 
-  Ссылка на Google Colab: https://colab.research.google.com/drive/1dWKTNqT-VrSV0R4vDES8CS4m_1u6RUmv?usp=sharing
+  [Ссылка на Google Colab](https://colab.research.google.com/drive/1dWKTNqT-VrSV0R4vDES8CS4m_1u6RUmv?usp=sharing)
   
   [Ноутбук так же доступен здесь.](https://github.com/XeniaMishina/hse22_hw1/blob/main/src/hse22_hw1.ipynb)
 
