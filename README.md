@@ -97,18 +97,19 @@ rm matepairs2.fastq.int_trimmed
 rm sub1.fastq.trimmed
 rm sub2.fastq.trimmed
 ```
-<!---
-- Далее я перенесла все в одну папку.
+
+- Далее я перенесла все файлы основного задания в одну папку
 
 ```
-mkdir MainTask
-mv Poil* MainTask/
-mv oil* MainTask/
-mv *.log MainTask/
-mv fast* MainTask/
-mv mult* MainTask/
+mkdir hw_1_main
+mv Poil* hw_1_main/
+mv oil* hw_1_main/
+mv *.log hw_1_main/
+mv fast* hw_1_main/
+mv mult* hw_1_main/
 ```
 
+<!--- 
 В папке MainTask создала папку platanus и перенесла туда файлы, созданные программой platanus.
 
 ```
