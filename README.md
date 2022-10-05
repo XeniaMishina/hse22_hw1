@@ -34,10 +34,9 @@ mkdir multiqc
 multiqc -o multiqc fastqc
 ```
 
-<!--- 
-![Скрин](https://github.com/Laitielly/hse22_hw1/blob/main/screenshots/total.png)
-![Скрин2](https://github.com/Laitielly/hse22_hw1/blob/main/screenshots/quality%20scores.png)
---->
+![Скрин_1](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/general_main_1.png)
+![Скрин_2](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/quality_score_main_1)
+
 
 - С помощью программ platanus_trim и platanus_internal_trim подрезаем чтения по качеству и удаляем адаптеры
 
@@ -61,10 +60,10 @@ ls sub* matepairs*| xargs -tI{} fastqc -o fastqc_trim {}
 mkdir multiqc_trim
 multiqc -o multiqc_trim fastqc_trim
 ```
-<!--- 
-![Скрин3](https://github.com/Laitielly/hse22_hw1/blob/main/screenshots/total2.png)
-![Скрин4](https://github.com/Laitielly/hse22_hw1/blob/main/screenshots/quality%20scores2.png)
---->
+
+![Скрин_3](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/general_main_2.png)
+![Скрин_4](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/quality_score_main_2)
+
 
 ### Контиги и скаффолды
 
