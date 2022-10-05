@@ -74,6 +74,8 @@ time platanus assemble -o Poil -f sub1.fastq.trimmed sub2.fastq.trimmed 2> assem
 - Далее идет анализ полученных контигов
 
   Ссылка на Google Colab: https://colab.research.google.com/drive/1dWKTNqT-VrSV0R4vDES8CS4m_1u6RUmv?usp=sharing
+  
+  [Ноутбук так же доступен здесь.](https://github.com/XeniaMishina/hse22_hw1/blob/main/src/hse22_hw1.ipynb)
 
 - С помощью программы “platanus scaffold” собираем скаффолды из контигов, а также из подрезанных чтений
 ```
@@ -125,6 +127,8 @@ mv mult* hw_1_main/
     ![Скрин_8](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/quality_score_extra_2.png)
 
 Ссылка на Google Colab та же.
+ 
+[Ноутбук так же доступен здесь.](https://github.com/XeniaMishina/hse22_hw1/blob/main/src/hse22_hw1.ipynb)
 
 ## Выводы
 
@@ -132,5 +136,6 @@ mv mult* hw_1_main/
 
 
 В папках data, reports лежат файлы для обязательной части, но так же они дублируются в этих же директориях в папках main. В папках extra в этих директориях лежат файлы для доп. задания. 
+
 
    
