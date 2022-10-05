@@ -114,18 +114,17 @@ mv mult* hw_1_main/
 
 
 
- - Отчеты:
- 
-    До подрезания:
+ - Отчеты до подрезания:
     
     ![Скрин_5](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/general_extra_1.png)
     ![Скрин_6](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/quality_score_extra_1.png)
     
-    После подрезания:
+  - Отчеты после подрезания:
     
     ![Скрин_7](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/general_extra_2.png)
     ![Скрин_8](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/quality_score_extra_2.png)
 
 Ссылка на Google Colab та же.
+В папках data, reports лежат файлы для обязательной части, но так же они дублируются в этих же директориях в папках main. В папках extra в этих директориях лежат файлы для доп. задания. 
 
    
