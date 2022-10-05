@@ -34,10 +34,9 @@ mkdir multiqc
 multiqc -o multiqc fastqc
 ```
 
-<!--- 
-![Скрин](https://github.com/Laitielly/hse22_hw1/blob/main/screenshots/total.png)
-![Скрин2](https://github.com/Laitielly/hse22_hw1/blob/main/screenshots/quality%20scores.png)
---->
+![Скрин_1](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/general_main_1.png)
+![Скрин_2](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/quality_score_main_1.png)
+
 
 - С помощью программ platanus_trim и platanus_internal_trim подрезаем чтения по качеству и удаляем адаптеры
 
@@ -61,10 +60,10 @@ ls sub* matepairs*| xargs -tI{} fastqc -o fastqc_trim {}
 mkdir multiqc_trim
 multiqc -o multiqc_trim fastqc_trim
 ```
-<!--- 
-![Скрин3](https://github.com/Laitielly/hse22_hw1/blob/main/screenshots/total2.png)
-![Скрин4](https://github.com/Laitielly/hse22_hw1/blob/main/screenshots/quality%20scores2.png)
---->
+
+![Скрин_3](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/general_main_2.png)
+![Скрин_4](https://github.com/XeniaMishina/hse22_hw1/blob/main/screenshots/quality_score_main_2.png)
+
 
 ### Контиги и скаффолды
 
@@ -72,9 +71,11 @@ multiqc -o multiqc_trim fastqc_trim
 ```
 time platanus assemble -o Poil -f sub1.fastq.trimmed sub2.fastq.trimmed 2> assemble.log
 ```
-<!--- Ссылка на Google Colab: https://colab.research.google.com/drive/1b9morJnM94QBuG7pUF8aMDVm7z6QAZ4F?usp=sharing 
+- Далее идет анализ полученных контигов
 
-Или блокнот вы можете найти здесь: https://github.com/Laitielly/hse22_hw1/blob/main/src/HW22_1.ipynb
+  Ссылка на Google Colab: https://colab.research.google.com/drive/1dWKTNqT-VrSV0R4vDES8CS4m_1u6RUmv?usp=sharing
+
+<!---  Или блокнот вы можете найти здесь: https://github.com/Laitielly/hse22_hw1/blob/main/src/HW22_1.ipynb
 --->
 
 - С помощью программы “platanus scaffold” собираем скаффолды из контигов, а также из подрезанных чтений
@@ -96,18 +97,19 @@ rm matepairs2.fastq.int_trimmed
 rm sub1.fastq.trimmed
 rm sub2.fastq.trimmed
 ```
-<!---
-- Далее я перенесла все в одну папку.
+
+- Далее я перенесла все файлы основного задания в одну папку
 
 ```
-mkdir MainTask
-mv Poil* MainTask/
-mv oil* MainTask/
-mv *.log MainTask/
-mv fast* MainTask/
-mv mult* MainTask/
+mkdir hw_1_main
+mv Poil* hw_1_main/
+mv oil* hw_1_main/
+mv *.log hw_1_main/
+mv fast* hw_1_main/
+mv mult* hw_1_main/
 ```
 
+<!--- 
 В папке MainTask создала папку platanus и перенесла туда файлы, созданные программой platanus.
 
 ```
